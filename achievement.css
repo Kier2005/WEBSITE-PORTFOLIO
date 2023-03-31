@@ -1,0 +1,28 @@
+*{
+    
+    margin: 0%;
+    padding: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.background{
+    width: 120px;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(249, 255, 249, 0.842);
+    z-index: -1;
+}
+.content h1{
+    font-size: 150%;
+    margin-top: 10px;
+    z-index: -1;
+}
+.content h2{
+    font-size: 100%;
+    margin-bottom: 55px;
+    z-index: -1;
+}
